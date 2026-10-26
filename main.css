@@ -11,6 +11,12 @@ body {
 
 }
 
+p {
+
+    font-weight: 500;
+    
+}
+
 input {
 
     font-size: 140%;
