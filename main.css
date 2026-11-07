@@ -3,17 +3,29 @@ body {
 
     font-size: 14px; 
 
-    color: blueviolet;
+    color: rgb(138, 43, 226);
 
-    line-height: 80%;
+/*
+    position: fixed;
 
-    display: inline-block;
+    bottom: 15px; 
+
+    right: 15px; 
+*/
 
 }
 
 p {
 
     font-weight: 500;
+
+    line-height: 40px;
+
+    text-indent: 1rem;
+
+    letter-spacing: 9px;
+    
+    text-align:right;
     
 }
 
@@ -27,7 +39,7 @@ input {
 
 input[type="text"] {
 
-    color: blueviolet;
+    color: rgb(138, 43, 226);
     
 }
 
@@ -39,7 +51,9 @@ input::placeholder {
 
 button {
 
-    width: 100%;
+    display: block;
+
+    width: 38.8%;
 
     padding: 10px;
 
